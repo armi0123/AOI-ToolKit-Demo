@@ -107,12 +107,15 @@ AOI Vision Platform
 1.主畫面
 
 <img width="762" height="385" alt="image" src="https://github.com/user-attachments/assets/ba82d784-a6fb-440c-93cd-2d0570d122e9" />
+
 2.工具選擇畫面
 
 <img width="620" height="383" alt="image" src="https://github.com/user-attachments/assets/3eaeea17-5fe7-45b7-b10e-0be07d22984e" />
+
 3.工具參數設定畫面
 
 <img width="619" height="382" alt="image" src="https://github.com/user-attachments/assets/45c96189-c001-4d8c-869b-9f28b11713ec" />
+
 4.執行結果+結果輸出
 
 <img width="761" height="385" alt="image" src="https://github.com/user-attachments/assets/ff49904d-b3d6-4c50-82a1-b8e5fbc185e8" />
