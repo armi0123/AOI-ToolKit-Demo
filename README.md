@@ -59,47 +59,7 @@ This project is also used as a personal learning platform for industrial vision 
 ----------
 ## 系統架構 (System Architecture)
 
-AOI Vision Platform
-│
-├── Forms
-│   ├── MainForm
-│   ├── ROISettingForm
-│   └── ToolSettingForm
-│
-├── Core
-│   ├── Pipeline
-│   ├── ToolResult
-│   └── ImageManager
-│
-├── VisionTools
-│   ├── ITool
-│   ├── ToolBase
-│   │
-│   ├── ThresholdTool
-│   ├── SobelTool
-│   ├── CornerDetectTool
-│   ├── QRCodeTool
-│   ├── BarCodeTool
-│   └── DataMatrixTool
-│
-├── ROI
-│   ├── ROIObject
-│   ├── ROIEditor
-│   └── ROIManager
-│
-├── ImageProcessing
-│   ├── EdgeDetection
-│   ├── BinaryProcessing
-│   └── FeatureDetection
-│
-├── Display
-│   ├── ImageViewer
-│   ├── OverlayRenderer
-│   └── ResultDisplay
-│
-└── External Libraries
-    ├── OpenCvSharp
-    └── ZXing
+<img width="181" height="829" alt="image" src="https://github.com/user-attachments/assets/4bb62c1d-2fab-45bc-934b-83d2de0f6434" />
 
 ----------
 ## 使用者介面 ( User Interface)
