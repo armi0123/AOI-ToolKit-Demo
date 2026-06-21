@@ -1,60 +1,79 @@
-# AOI Vision Platform
+# AOI ToolKit Demo
 
 ## 中文介紹
 
-這是一個使用 C# 與 Visual Studio 開發中的模組化 AOI 視覺檢測平台。
+這是一個使用 C#、WinForms 與 OpenCV 開發中的 AOI 檢測工具開發平台。
 
-本專案的目標是建立一套可依照不同檢測需求，自由新增與選擇視覺檢測工具的 AOI 軟體架構，讓使用者能夠更直覺地建立檢測流程，同時保持介面乾淨、易於操作與維護。
+本專案主要用於研究與開發各種工業視覺檢測工具，並透過模組化設計方式，建立可重複使用與擴充的 AOI Tool Library。
 
-目前開發方向包含：
+與一般 AOI 軟體著重於設備整合不同，本專案更專注於影像處理演算法、檢測工具開發以及檢測流程驗證。
+
+未來規劃將作為 AOI Platform 的檢測引擎，提供各種視覺檢測工具與演算法模組。
+
+### 目前已完成
 
 * ROI 編輯工具
 * Sobel 邊緣檢測
-* 二值化參數調整
-* 角點量測
-* Tool 模組化架構
-* 缺陷檢測研究
+* 二值化工具
+* QR Code 辨識
+* DataMatrix 辨識
+* Tool Pipeline 基礎架構
+* 檢測結果管理
 
-未來希望逐步新增：
+### 持續開發中
 
 * Blob 分析
-* OCR / QRCode 辨識
+* 特徵定位
+* OCR 文字辨識
+* 幾何量測工具
 * AI 瑕疵檢測
-* 刮傷與髒污辨識
-* Tool Flow 系統
-* Recipe 管理功能
+* 缺陷分類功能
 
-本專案也作為個人學習工業視覺、影像處理、AOI 系統設計與軟體架構開發的練習平台。
+### 專案目標
+
+* 建立可擴充的 AOI Tool Library
+* 練習 OpenCV 與影像處理技術
+* 研究工業 AOI 常用檢測方法
+* 作為 AOI Platform 的檢測核心模組
 
 ----------
 
 ## English Introduction
 
-This is a modular AOI vision inspection platform currently under development using C# and Visual Studio.
+AOI ToolKit Demo is a vision inspection tool development project built with C#, WinForms, and OpenCV.
 
-The goal of this project is to create an expandable AOI software architecture that allows users to freely add and select vision inspection tools based on different inspection requirements.
+The purpose of this project is to develop and validate reusable vision inspection tools commonly used in industrial AOI systems.
 
-I also hope to keep the user interface clean, intuitive, and easy to use, instead of having too many complicated tools displayed at once.
+Unlike AOI Platform, which focuses on software architecture, PLC communication, and workflow integration, this project focuses on image processing algorithms, inspection tool development, and vision-related research.
 
-Current development features include:
+The developed tools are planned to be integrated into AOI Platform as the inspection engine in future development.
+
+### Current Features
 
 * ROI Editor
 * Sobel Edge Detection
-* Threshold Adjustment
-* Corner Measurement
+* Threshold Processing
+* QR Code Detection
+* DataMatrix Detection
 * Modular Tool Architecture
-* Defect Detection Research
+* Inspection Result Management
 
-Future development plans include:
+### Future Development
 
 * Blob Analysis
-* OCR / QRCode Detection
+* Pattern Matching
+* OCR Inspection
+* Geometric Measurement Tools
 * AI Defect Detection
-* Scratch & Contamination Inspection
-* Tool Flow System
-* Recipe Management
+* Defect Classification
 
-This project is also used as a personal learning platform for industrial vision systems, image processing, AOI software design, and software architecture development.
+### Project Goals
+
+* Build a reusable AOI Tool Library
+* Practice OpenCV and image processing techniques
+* Study industrial AOI inspection methods
+* Serve as the inspection engine for AOI Platform
+
 
 ----------
 ## 系統架構 (System Architecture)
